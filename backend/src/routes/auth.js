@@ -33,7 +33,7 @@ router.post('/login',    authLimiter, login);
 // TOKEN MANAGEMENT
 // ================================
 router.post('/refresh', refreshToken);
-router.post('/logout',  authenticate, logout);
+router.post('/logout', logout); // No requiere token válido
 
 // ================================
 // PROFILE
