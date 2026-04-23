@@ -12,7 +12,7 @@ import clsx from 'clsx';
 
 const NAV_ITEMS = [
   { icon: LayoutDashboard, label: 'Dashboard',      path: '/dashboard' },
-  { icon: FolderKanban,    label: 'Proyectos',      path: '/dashboard/projects',     soon: true },
+  { icon: FolderKanban,    label: 'Proyectos',      path: '/dashboard/projects' },
   { icon: CheckSquare,     label: 'Tareas',         path: '/dashboard/tasks',        soon: true },
   { icon: Calendar,        label: 'Reuniones',      path: '/dashboard/meetings',     soon: true },
   { icon: StickyNote,      label: 'Notas',          path: '/dashboard/notes',        soon: true },
@@ -20,7 +20,7 @@ const NAV_ITEMS = [
 ];
 
 const BOTTOM_ITEMS = [
-  { icon: Users,    label: 'Equipo',  path: '/dashboard/team',     soon: true },
+  { icon: Users,    label: 'Equipo',  path: '/dashboard/team' },
   { icon: Settings, label: 'Ajustes', path: '/dashboard/settings', soon: true },
 ];
 
